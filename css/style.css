@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Padauk', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+background-attachment: fixed;
+background-image: url('../img/flowers.jpg');
+height: 800px;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+background-position: top;
+
+}
+
+.intro-image__text a {
+text-decoration: none;
+background-color: rgba(136, 58, 48, 0.534);
+color:rgb(43, 12, 12);
+border: 2px solid rgba(136, 58, 48, 0.534);
+text-decoration: none;
+display: inline-block;
+font-size: 2.5rem;
+padding: 6rem;
+text-transform: uppercase;
+
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    height: 250px;
+    background-color:rgb(37, 37, 31);
+    clip-path: polygon(50% 8%, 100% 0, 100% 43%, 100% 74%, 100% 100%, 52% 93%, 0 100%, 0% 43%, 0 0);
+    margin-top: -3rem;
+    color: white;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5rem;
+    }
+    
+    .intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+    }
+
+  
+    .packaging-image {
+        background-attachment: fixed;
+        background-image: url('../img/packages.jpg');
+        margin-top: -5rem;
+        height: 700px;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: top;
+        
+        }
+        
+        .packaging-image__text a {
+        text-decoration: none;
+        background-color: rgba(35, 33, 37, 0.685);
+        color: white;
+        border: 2px solid rgba(35, 33, 37, 0.685);
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2.5rem;
+        padding: 6rem;
+        text-transform: uppercase;
+        
+        }
+        
+        .packaging-image__text a:hover {
+            transform: scale(1.1);
+        }
+
+        .packaging-text {
+            clip-path: polygon(50% 8%, 100% 0, 100% 43%, 100% 74%, 100% 100%, 52% 93%, 0 100%, 0% 43%, 0 0);
+            height: 250px;
+            background-color:rgb(37, 37, 31);
+            margin-top: -3rem;
+            color: white;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 5rem;
+            }
+            
+            .packaging_text__textbox h3 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            }
+
+
+.tutorials-image {
+    margin-top: -3rem;
+background-attachment: fixed;
+background-image: url('../img/handcraft.jpg');
+height: 600px;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+background-position: top;
+
+}
+
+.tutorials-image__text a {
+    text-decoration: none;
+    background-color: rgba(226, 220, 211, 0.692);
+    color:rgb(255, 255, 255);
+    border: 2px solid rgba(226, 220, 211, 0.692);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 6rem;
+    text-transform: uppercase;
+    
+    }
+
+
+    .tutorials-image__text a:hover {
+        transform: scale(1.1);
+    }
+
+    .footer {
+        background-color: rgb(128, 60, 48);
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        height: 250px;
+        text-align: center;
+        height: 150px;
+    }
+    
+    .footer ul li {
+        display: inline-block;
+        margin: 1rem;
+    
+    }
+    
+    .footer ul li a {
+        text-decoration: none;
+        color:  rgb(255, 255, 255);
+    }
+    
+    .footer ul li:hover, .footer ul li a:hover {
+        color:rgb(255, 218, 218) ;
+        transform: scale(1.2);
+    }
